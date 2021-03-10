@@ -1,0 +1,6 @@
+.card-area {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
