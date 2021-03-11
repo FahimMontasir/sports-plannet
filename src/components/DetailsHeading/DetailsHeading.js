@@ -1,9 +1,15 @@
 import React from 'react';
-
-const DetailsHeading = () => {
+import './DetailsHeading.css'
+const DetailsHeading = ({ strLogo, strBanner }) => {
   return (
-    <div>
-
+    <div className='detail-heading' style={{
+      backgroundImage: `url(${strBanner})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: '100%'
+    }}>
+      <img src={strLogo} alt="team log" />
     </div>
   );
 };

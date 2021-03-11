@@ -1,0 +1,21 @@
+.detail-heading {
+  padding: 3rem 0;
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  border-bottom: 2px solid lightgray;
+}
+.detail-heading img {
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 5px;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .detail-heading {
+    padding: 2rem 0;
+  }
+  .detail-heading img {
+    width: 200px;
+  }
+}
