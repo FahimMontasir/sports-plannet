@@ -1,5 +1,6 @@
 import React from 'react';
 import './DetailsHeading.css'
+
 const DetailsHeading = ({ strLogo, strBanner }) => {
   return (
     <div className='detail-heading' style={{

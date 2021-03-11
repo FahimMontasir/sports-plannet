@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { Link } from 'react-router-dom';
+
 //material ui style
 const useStyles = makeStyles({
   root: {
@@ -28,6 +29,7 @@ export default function MediaCard({ league }) {
   const classes = useStyles();
   // object destructuring
   const { strLeague, strSport, idLeague } = league;
+
   return (
     <Card className={classes.root}>
       <CardActionArea>
