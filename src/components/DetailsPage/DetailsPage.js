@@ -43,7 +43,7 @@ const DetailsPage = () => {
           </Grid>
           <Grid item xs={12} md={6} className='feature-img'>
             {
-              gender.toLowerCase() === "male" ? maleImg : femaleImg
+              gender.toLowerCase() === "female" ? femaleImg : maleImg
             }
           </Grid>
         </Grid>
