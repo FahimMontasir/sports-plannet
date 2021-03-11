@@ -1,3 +1,24 @@
 .detail-body {
   padding: 20px;
 }
+.hero-card {
+  background-color: blueviolet;
+  padding: 3%;
+  border-radius: 1rem;
+  color: rgb(233, 231, 231);
+}
+.hero-card h4 {
+  line-height: 3px;
+}
+.description-text p {
+  color: gray;
+  text-align: justify;
+  margin-top: 1rem;
+}
+.footer-link {
+  text-align: center;
+  padding: 3% 0;
+}
+.feature-img img {
+  width: 100%;
+}
